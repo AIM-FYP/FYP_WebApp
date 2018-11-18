@@ -17,7 +17,7 @@ namespace FYP_WebApp.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your application description page. COMIT 2";
 
             return View();
         }
