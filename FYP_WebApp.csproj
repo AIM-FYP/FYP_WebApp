@@ -8,4 +8,12 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\resultsMidEval2.json" />
+    <Content Remove="Views\Home\boundsMidEval.json" />
+    <Content Remove="wwwroot\boundsMidEval.geojson" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Home\Electoral.html" />
+  </ItemGroup>
 </Project>

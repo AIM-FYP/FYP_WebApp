@@ -14,6 +14,10 @@ namespace FYP_WebApp.Controllers
         {
             return View();
         }
+        public IActionResult Electoral(){
+
+            return View();
+        }
 
         public IActionResult About()
         {
