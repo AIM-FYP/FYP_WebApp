@@ -6,14 +6,21 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="python" Version="3.7.1" />
+    <PackageReference Include="IronPython" Version="2.7.9" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="wwwroot\resultsMidEval2.json" />
     <Content Remove="Views\Home\boundsMidEval.json" />
     <Content Remove="wwwroot\boundsMidEval.geojson" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-simplex.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-journal.css" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Home\Electoral.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-simplex.css" />
   </ItemGroup>
 </Project>
